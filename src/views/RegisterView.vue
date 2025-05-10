@@ -3,7 +3,6 @@
     <Loading :isLoad="isLoading" @close="isLoading = false" class="z-10" />
     <div class="flex items-center justify-center my-10 w-full h-full">
       <div class="bg-[rgba(200,200,200,0.5)] p-6 rounded-lg shadow-lg w-[850px] relative">
-
         <router-link to="/" class="absolute">
           <svg width="40" height="40" viewBox="0 0 24 25" fill="none" transform="rotate(0 0 0)"
             class="fill-[#ff6e00] hover:fill-[rgb(255,140,0)] transition-colors duration-200">
